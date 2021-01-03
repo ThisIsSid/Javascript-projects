@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="description" content="Javascript tutorial project made by SID.">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/style.css">
+        <title>Edit Notes</title>
+    </head>
+    <body>
+        <div class="header">
+            <div class="sub-header">
+                <h1 class="header-title">Make Notes</h1>
+                <h2 class="header-subtitle">Create your notes</h2>
+            </div>
+        </div>
+        <div class="actions">
+            <div class="action-container">
+                <a href="project.html">Home</a><span id="time-stamp"></span>
+            </div>
+        </div>
+        <div class="main-notes">
+            <input type="text" id="note-title" class="title-input" placeholder="Title of your Note">
+            <textarea name="" id="note-body" class="body-input" cols="30" rows="10" placeholder="Enter note text"></textarea>
+            <button id="remove-note" class="button button-secondary">Remove note</button>
+        </div>
+    </body>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment.min.js"></script>
+    <script src="script/note-main.js"></script>
+        <script src="script/note-edit.js"></script>
+</html>

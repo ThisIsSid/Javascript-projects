@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="description" content="Javascript tutorial project made by SID.">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/style.css">
+        <title>Notes in Javascript</title>
+    </head>
+    <body>
+        <div class="header">
+            <div class="sub-header">
+                <h1 class="header-title">Make Notes</h1>
+                <h2 class="header-subtitle">Create your notes</h2>
+            </div>
+        </div>
+        <div class="actions">
+            <div class="action-container">
+                <input id="search-text" type="text" class="input" placeholder="Filter-todo">
+                <label for="sort">Sort by:</label>
+                <select name="" id="filter-by" class="dropdown">
+                    <option value="byEdited">last edited</option>
+                    <option value="byCreated">recently created</option>
+                    <option value="alphabetical">alphabetically</option>
+                </select>
+            </div>
+        </div>
+        <div class="main-notes">
+            <div id="notes"></div>
+            <button id="create-note" class="button">Create Note</button>
+        </div>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment.min.js"></script>
+        <script src="script/uuid.js"></script>
+        <script src="script/note-main.js"></script>
+        <script src="script/note-create.js"></script>
+    </body>
+</html>
