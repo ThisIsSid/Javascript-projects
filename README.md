@@ -1,2 +1,3 @@
 # Javascript-projects
-Contains javascript projects
+Contains my personal javascript note creation projects
+
